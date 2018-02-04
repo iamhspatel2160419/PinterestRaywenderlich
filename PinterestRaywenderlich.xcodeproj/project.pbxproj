@@ -8,20 +8,38 @@
 
 /* Begin PBXBuildFile section */
 		E0ADC1E82027530E0074AF45 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0ADC1E72027530E0074AF45 /* AppDelegate.swift */; };
-		E0ADC1EA2027530E0074AF45 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0ADC1E92027530E0074AF45 /* ViewController.swift */; };
 		E0ADC1ED2027530E0074AF45 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0ADC1EB2027530E0074AF45 /* Main.storyboard */; };
 		E0ADC1EF2027530E0074AF45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0ADC1EE2027530E0074AF45 /* Assets.xcassets */; };
 		E0ADC1F22027530E0074AF45 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0ADC1F02027530E0074AF45 /* LaunchScreen.storyboard */; };
+		E0ADC1FA202753890074AF45 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0ADC1F9202753890074AF45 /* Photo.swift */; };
+		E0ADC1FC2027567A0074AF45 /* Photos.plist in Resources */ = {isa = PBXBuildFile; fileRef = E0ADC1FB2027567A0074AF45 /* Photos.plist */; };
+		E0ADC1FE202756B90074AF45 /* UIImage+Decompression.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0ADC1FD202756B90074AF45 /* UIImage+Decompression.swift */; };
+		E0ADC2002027578E0074AF45 /* RoundedCornersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0ADC1FF2027578E0074AF45 /* RoundedCornersView.swift */; };
+		E0ADC202202758E50074AF45 /* PhotoStreamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0ADC201202758E40074AF45 /* PhotoStreamViewController.swift */; };
+		E0ADC204202759F00074AF45 /* PinterestLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0ADC203202759F00074AF45 /* PinterestLayout.swift */; };
+		E0ADC20620275A590074AF45 /* AnnotatedPhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0ADC20520275A590074AF45 /* AnnotatedPhotoCell.swift */; };
+		E0ADC20820277A9B0074AF45 /* Simulator Screen Shot - iPhone 6 - 2018-02-04 at 09.28.14.png in Resources */ = {isa = PBXBuildFile; fileRef = E0ADC20720277A9A0074AF45 /* Simulator Screen Shot - iPhone 6 - 2018-02-04 at 09.28.14.png */; };
+		E0ADC20A20277AA40074AF45 /* Simulator Screen Shot - iPhone 6 - 2018-02-04 at 09.28.28.png in Resources */ = {isa = PBXBuildFile; fileRef = E0ADC20920277AA40074AF45 /* Simulator Screen Shot - iPhone 6 - 2018-02-04 at 09.28.28.png */; };
+		E0ADC20C20277AA90074AF45 /* Simulator Screen Shot - iPhone 6 - 2018-02-04 at 09.28.00.png in Resources */ = {isa = PBXBuildFile; fileRef = E0ADC20B20277AA90074AF45 /* Simulator Screen Shot - iPhone 6 - 2018-02-04 at 09.28.00.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E0ADC1E42027530D0074AF45 /* PinterestRaywenderlich.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PinterestRaywenderlich.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0ADC1E72027530E0074AF45 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E0ADC1E92027530E0074AF45 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E0ADC1EC2027530E0074AF45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E0ADC1EE2027530E0074AF45 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E0ADC1F12027530E0074AF45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E0ADC1F32027530E0074AF45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0ADC1F9202753890074AF45 /* Photo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		E0ADC1FB2027567A0074AF45 /* Photos.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Photos.plist; sourceTree = "<group>"; };
+		E0ADC1FD202756B90074AF45 /* UIImage+Decompression.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Decompression.swift"; sourceTree = "<group>"; };
+		E0ADC1FF2027578E0074AF45 /* RoundedCornersView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedCornersView.swift; sourceTree = "<group>"; };
+		E0ADC201202758E40074AF45 /* PhotoStreamViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoStreamViewController.swift; sourceTree = "<group>"; };
+		E0ADC203202759F00074AF45 /* PinterestLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PinterestLayout.swift; sourceTree = "<group>"; };
+		E0ADC20520275A590074AF45 /* AnnotatedPhotoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnnotatedPhotoCell.swift; sourceTree = "<group>"; };
+		E0ADC20720277A9A0074AF45 /* Simulator Screen Shot - iPhone 6 - 2018-02-04 at 09.28.14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screen Shot - iPhone 6 - 2018-02-04 at 09.28.14.png"; sourceTree = "<group>"; };
+		E0ADC20920277AA40074AF45 /* Simulator Screen Shot - iPhone 6 - 2018-02-04 at 09.28.28.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screen Shot - iPhone 6 - 2018-02-04 at 09.28.28.png"; sourceTree = "<group>"; };
+		E0ADC20B20277AA90074AF45 /* Simulator Screen Shot - iPhone 6 - 2018-02-04 at 09.28.00.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screen Shot - iPhone 6 - 2018-02-04 at 09.28.00.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +72,17 @@
 		E0ADC1E62027530D0074AF45 /* PinterestRaywenderlich */ = {
 			isa = PBXGroup;
 			children = (
+				E0ADC20B20277AA90074AF45 /* Simulator Screen Shot - iPhone 6 - 2018-02-04 at 09.28.00.png */,
+				E0ADC20720277A9A0074AF45 /* Simulator Screen Shot - iPhone 6 - 2018-02-04 at 09.28.14.png */,
+				E0ADC20920277AA40074AF45 /* Simulator Screen Shot - iPhone 6 - 2018-02-04 at 09.28.28.png */,
+				E0ADC20520275A590074AF45 /* AnnotatedPhotoCell.swift */,
+				E0ADC201202758E40074AF45 /* PhotoStreamViewController.swift */,
+				E0ADC203202759F00074AF45 /* PinterestLayout.swift */,
+				E0ADC1FF2027578E0074AF45 /* RoundedCornersView.swift */,
+				E0ADC1FB2027567A0074AF45 /* Photos.plist */,
+				E0ADC1FD202756B90074AF45 /* UIImage+Decompression.swift */,
+				E0ADC1F9202753890074AF45 /* Photo.swift */,
 				E0ADC1E72027530E0074AF45 /* AppDelegate.swift */,
-				E0ADC1E92027530E0074AF45 /* ViewController.swift */,
 				E0ADC1EB2027530E0074AF45 /* Main.storyboard */,
 				E0ADC1EE2027530E0074AF45 /* Assets.xcassets */,
 				E0ADC1F02027530E0074AF45 /* LaunchScreen.storyboard */,
@@ -123,9 +150,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0ADC20A20277AA40074AF45 /* Simulator Screen Shot - iPhone 6 - 2018-02-04 at 09.28.28.png in Resources */,
 				E0ADC1F22027530E0074AF45 /* LaunchScreen.storyboard in Resources */,
 				E0ADC1EF2027530E0074AF45 /* Assets.xcassets in Resources */,
 				E0ADC1ED2027530E0074AF45 /* Main.storyboard in Resources */,
+				E0ADC20820277A9B0074AF45 /* Simulator Screen Shot - iPhone 6 - 2018-02-04 at 09.28.14.png in Resources */,
+				E0ADC20C20277AA90074AF45 /* Simulator Screen Shot - iPhone 6 - 2018-02-04 at 09.28.00.png in Resources */,
+				E0ADC1FC2027567A0074AF45 /* Photos.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,7 +167,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E0ADC1EA2027530E0074AF45 /* ViewController.swift in Sources */,
+				E0ADC204202759F00074AF45 /* PinterestLayout.swift in Sources */,
+				E0ADC20620275A590074AF45 /* AnnotatedPhotoCell.swift in Sources */,
+				E0ADC1FA202753890074AF45 /* Photo.swift in Sources */,
+				E0ADC1FE202756B90074AF45 /* UIImage+Decompression.swift in Sources */,
+				E0ADC202202758E50074AF45 /* PhotoStreamViewController.swift in Sources */,
+				E0ADC2002027578E0074AF45 /* RoundedCornersView.swift in Sources */,
 				E0ADC1E82027530E0074AF45 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
